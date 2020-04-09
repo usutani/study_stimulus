@@ -1,2 +1,11 @@
 <h1>One#index</h1>
 <p>Find me in app/views/one/index.html.erb</p>
+
+<p>
+home#indexに戻るとamountが永続化されていることがわかる。
+Turbolinksのキャッシュを消すとページが初期化される。
+</p>
+
+<code>
+Turbolinks.clearCache();
+</code>
